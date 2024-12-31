@@ -84,6 +84,18 @@
     color: #fff;
 }
 
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-item {
+    margin: 10px 0;
+}
+
+.dropdown-menu {
+    text-align: left;
+}
+
 .navbar {
     padding: 0;
 }
@@ -1285,9 +1297,39 @@ strong {
     }
 
 }
+/* Navbar Background for Mobile */
+@media (max-width: 991px) {
+    .navbar-collapse {
+        background-color: #333;
+        padding: 15px;
+    }
+
+    .navbar-nav .nav-link {
+        color: #fff;
+        text-align: center;
+    }
+
+    .dropdown-menu {
+        background-color: #444;
+        border: none;
+    }
+
+    .dropdown-item:hover {
+        background-color: #555;
+        color: #fff;
+    }
+}
+
 
 /* //about// */
 
 .text-align{
     text-align: center;
+}
+
+.navbar-toggler-icon{
+    color: #fff;
+}
+.c-w{
+    color: #fff;
 }
