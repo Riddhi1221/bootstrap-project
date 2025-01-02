@@ -192,144 +192,14 @@
     visibility: visible;
 }
 
-/* header */
-/*
-#header {
-    background: rgba(12, 11, 9, 0.6);
-    border-bottom: 1px solid rgba(12, 11, 9, 0.6);
-     top: 40px; 
-}
-#header .col-2 h1 a{
-   
-}
-#header .logo {
-    font-size: 28px;
-    max-height: 40px;
-    line-height: 1;
-    font-weight: 300;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-family: "Poppins", sans-serif;
-}
-
-
-#header .logo a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.book-btn {
-    margin: 0 0 0 15px;
-    border: 2px solid #cda45e;
-    color: #fff;
-    border-radius: 50px;
-    padding: 8px 25px;
-    text-transform: uppercase;
-    font-size: 13px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    transition: 0.3s;
-    text-decoration: none;
-}
-
-.book-btn:hover {
-    background: #cda45e;
-    color: #fff;
-}
-
-.navbar {
-    padding: 0;
-}
-
-.navbar ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    list-style: none;
-    align-items: center;
-}
-
-.navbar li {
-    position: relative;
-}
-
-.navbar a{
- 
-    padding: 10px 0 10px 30px;
-    color: #fff;
-
-    /* transition: 0.3s; 
-    font-size: 14px;
-}
-
-.navbar .dropdown ul li {
-    min-width: 200px;
-}
-
-.navbar .dropdown ul a {
-    padding: 10px 20px;
-    color: #444444;
-}
-
-.navbar ul ul {
-    display: none;
-    position: absolute;
-}
-
-.navbar ul li:hover>ul{
-    display: block;
-}
-
-.header{
-    position: relative;
-}
-.fixed-top{
-    padding: 20px 0px;
-
-}
-.navbar ul ul{
-    background-color: #fff;
-    width:200px;
-}
-
-.navbar ul li a{
-    text-decoration: none;
-
-}
-.navbar ul ul li a{
-    color: #26231d;
-    text-decoration: none;
- 
-}
-.navbar ul ul ul{ 
-    width:100%;
-    width:200px;
-    left:100%;
-    top:0;
-    background-color: #fff;
-  
-}
-.navbar ul ul ul li a{
-    color: #26231d ;
-    text-decoration: none;
-    padding: 8px 0px;
-    
-}
-
-.navbar ul li a:hover{
-    color: #cda45e;
-}
-
-
-*/
-
 
 /* header end */
 
 .slider {
     background: url(https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/hero-bg.jpg);
     width: 100%;
-    /* height: 100vh; */
+    background-position: center;
+    background-repeat: repeat;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
